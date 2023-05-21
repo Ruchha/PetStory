@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "normalize-scss": "^7.0.1",
+    "sass": "^1.55.0"
+  },
+  "name": "zoov2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass --watch sass/style.scss sass/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

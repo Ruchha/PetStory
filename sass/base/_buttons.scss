@@ -1,0 +1,46 @@
+@property --myColor1 {
+    syntax: '<color>';
+    initial-value: #F9804B;
+    inherits: false;
+    percentage:1.49%;
+    angle:113.96deg;
+  }
+  
+@property --myColor2 {
+    syntax: '<color>';
+    initial-value: #FE9013;
+    inherits: false;
+    percentage: 101.44%;
+    angle:113.96deg;
+  }
+.button{
+    font-family: "Roboto",sans-serif;
+    background: linear-gradient(113.96deg, var(--myColor1), var(--myColor2));
+    transition: --myColor1 .2s, --myColor2 .2s;
+    width: 298px;
+    height: 54px;
+    left: calc(50% - 298px/2);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 25px;
+    border: none;
+    color: $color-main-buttons-text;
+    cursor: pointer;
+}
+.button:hover {
+    --myColor1: #E47209;
+    --myColor2: #E47209;
+}
+
+.button:active{
+    --myColor1: green;
+    --myColor2: green;
+}
+
+.button--colored--squared{
+    border-radius: 5px;
+}

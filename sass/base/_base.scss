@@ -1,0 +1,75 @@
+html {
+    font-size:10px;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+h1 {
+   
+    font-weight: 700;
+    font-size: 106.5px;
+    line-height: 75%;
+    color: $color-main-buttons-text;
+    text-align: center;
+    width: 500.31px;
+    height: 400px;
+    z-index: 2;
+    text-transform: uppercase;
+}
+.h1_colored{
+    color:$color-yellow;
+}
+h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: $color-main-text;
+    margin:auto;
+}
+h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    margin:0px;
+    color:$color-main-text;
+}
+h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color:$color-main-text;
+    margin:0px;
+}
+h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    margin:0px;
+}
+li{
+    list-style: none;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+a:link{
+    color:$color-main-buttons-text;
+}
+a:visited{
+    color:$color-main-buttons-text
+}
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color:$color-main-text;
+    margin:0px;
+}

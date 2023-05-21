@@ -1,0 +1,33 @@
+.header{
+    background: $color-header;
+    backdrop-filter: blur(2px);
+    padding: 14px 0px 11px 0px;
+}
+.header__wrapper{
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;
+    color: $color-main-buttons-text;
+}
+.info{
+    margin-left: auto;
+}
+.navigation{
+    color: $color-main-buttons-text;
+    display:flex
+}
+.navigation__link{
+    padding: 0px 29px;
+}
+.navigation__link:hover{
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.colored{
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

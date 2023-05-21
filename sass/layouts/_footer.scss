@@ -1,0 +1,51 @@
+.footer{
+    background: $color-footer;
+}
+.columns-3__block-menu{
+    align-self: flex-end;
+} 
+.section5__wrapper{
+    padding-top:41px;
+    padding-bottom:50px;
+}
+.row-3-content{
+    display:flex;
+    flex-direction: column;
+}
+ul{
+    margin:0;
+    padding: 0;
+}
+.socials__button{
+    margin-top:68px;
+}
+.navigation__link{
+    white-space:nowrap;
+}
+.subscribe__text{
+font-weight: 400;
+font-size: 24px;
+line-height: 120%; 
+color: #FFFFFF;
+}
+.email-field{
+    border: solid;
+    border-width: 1px;
+    border-color:#f9804B;
+    width: 228px;
+    height: 42px;
+    background-color: $color-footer;
+    outline:none;
+    color:#FFFFFF;
+}
+.email-field:focus{
+    border-color:$color-clicked;
+}
+
+.email-field::placeholder{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+}

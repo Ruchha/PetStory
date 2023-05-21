@@ -1,0 +1,32 @@
+.section1{
+    margin:auto;
+    background-image:url("../assets/images/pandabackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.circle{
+    height: 465px;
+    width: 465px;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 50%;
+    position: relative;
+    left:390px
+    
+}
+.section1__content{
+    padding: 12px 0px 55px 0px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+    
+}
+.section1__buttons{
+    position:relative;
+    right:100px;
+    bottom:20px;
+
+}
+
+

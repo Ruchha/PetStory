@@ -1,0 +1,17 @@
+.arrow{
+    width:62px;
+    height:62px;
+    transition: .1s;
+}
+.left{
+    background-image: url("../assets/images/arrow_elips_2.svg");
+}
+.left:active{
+    background-image: url("../assets/images/arrow_elips_2_active.svg");
+}
+.right{
+    background-image: url("../assets/images/arrow_elips_1.svg");
+}
+.right:active{
+    background-image: url("../assets/images/arrow_elips_1_active.svg");
+}
